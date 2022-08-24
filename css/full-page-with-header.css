@@ -1,1 +1,15 @@
-full-page-with-header.css
+body {
+	margin: 0px;
+	display: grid;
+	grid-template-rows: auto 1fr;
+	height: 100vh;
+}
+
+header {
+	background-color:  lightgray;
+}
+
+section {
+	background-color: gray;
+}
+
